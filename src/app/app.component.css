@@ -1,0 +1,62 @@
+.title-page{
+    text-align: center;
+}
+
+.form-user label{
+    font-weight: 600;
+}
+
+.form-test{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding: 3rem;
+    align-items: center;
+    align-content: center;
+    position: relative;
+}
+.form-user:before{
+    content: "Componente 'PADRE'";
+    background-color: #ff3c7f;
+    position: absolute;
+    color: white;
+    font-size: 70%;
+    padding: .1rem .25rem;
+    top: -15px;
+    left: -10px;
+    font-weight: 500;
+    border-radius: .25rem;
+}
+
+.form-user{
+    width: 800px;
+    min-height: 400px;
+    border-radius: .5rem;
+    background-color: white;
+    padding: .5rem 1rem;
+    position: relative;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.form-user .field-group{
+    display: grid;
+}
+
+.form-user .field-group input{
+    /* width: 100%; */
+    height: 35px;
+    font-size: 1rem;
+    padding: .25rem .5rem;
+    border:solid 1px #e6e6e6;
+    font-family: 'Poppins', sans-serif;
+    border-radius: .25rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: .5rem;
+}
+
+.img-footer img{
+    width: 200px;
+    position: fixed;
+    bottom: 0;
+    right: 2rem;
+}
